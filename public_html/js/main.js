@@ -7,7 +7,7 @@ $(document).on('click', 'a[href^="#"]', function (e) {
 	}, 900);
 });
 
-// Esto es para copiar la ip del servidor si es que aplica :v 
+// Esto es para copiar la ip del servidor si es que aplica
 
 // let t;
 // $(document).ready(()=>{
