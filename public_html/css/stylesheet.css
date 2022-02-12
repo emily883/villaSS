@@ -68,7 +68,8 @@ h3 {
 	right: 0;
 	flex-direction: column;
 	color: white;
-	background-color: var(--color-navbar);
+	background-color: var(--color-base);
+	filter: blur(19px);
 	font-size: 1em;
 	padding: 20px;
 }
@@ -107,7 +108,7 @@ h3 {
 }
 .nav {
 	width: 100%;
-	background-color: #23272b;
+	background: var(--color-base);
 	box-shadow: 0 2px rgba(105, 106, 109, 0.5);
 	color: white;
 	display: flex;
@@ -315,8 +316,8 @@ hr {
 	padding: 12px;
 }
 
-.owner {background-color: rgba(244, 65, 65, .5);}
-.manager {background-color: rgba(66, 134, 244, .5);}
+.owner {background-color: rgba(182, 126, 126, 0.5);}
+.manager {background-color: rgba(111, 146, 201, 0.5);}
 .admin {background-color: rgba(59, 211, 42, .5);}
 
 
@@ -474,4 +475,7 @@ footer a {
 	footer {
 		justify-content: space-between;
 	}
+	/* .youtube{
+		margin: 10px;
+	} */
 }
